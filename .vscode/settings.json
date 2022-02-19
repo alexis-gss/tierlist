@@ -1,0 +1,26 @@
+{
+    // #265c90
+    // #FFFFFF
+    // #000000
+
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#265c90",
+        "sash.hoverBorder": "#265c90",
+        "statusBar.background": "#265c90",
+        "titleBar.activeBackground": "#265c90",
+        "activityBarBadge.background": "#265c90",
+        
+        "titleBar.inactiveBackground": "#265c9077",
+        "titleBar.inactiveForeground": "#FFFFFF77",
+
+        "icon.foreground": "#FFFFFF",
+        "titleBar.activeForeground": "#FFFFFF",
+        "statusBar.foreground": "#FFFFFF",
+        "activityBar.activeBackground": "#FFFFFF",
+        "activityBar.inactiveForeground": "#FFFFFF",
+
+        "activityBarBadge.foreground": "#000000",
+        "activityBar.foreground": "#000000",
+        "activityBar.activeBorder": "#000000"
+    }
+}
