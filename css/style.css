@@ -1,0 +1,142 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  background: linear-gradient(145deg, rgba(38,92,144,1) 0%, rgba(0,0,0,1) 100%);
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+img {
+  width: auto;
+  height: 125px;
+  margin: 0;
+  padding: 0;
+}
+input{
+  cursor: pointer;
+}
+button:focus, input:focus , .addLine, .formSubmit, .formSelect{
+  outline: none;
+}
+form{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 30rem;
+}
+
+/* TITLE */
+.title{
+  font-family: 'Lobster', cursive;
+  color: white;
+  font-size: 8rem;
+}
+
+/* NAVIGATION */
+.nav{
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.addLine, .formSubmit, .formSelect{
+  width: auto;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.addLine{
+  width: 10.1rem;
+}
+.formSelect{
+  width: auto;
+  height: 54px;
+  text-align: left;
+}
+
+/* TEMPLATE */
+.tierlistDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 50vw;
+  min-height: 127px;
+  margin: .5rem;
+  border: 1px solid black;
+  background-color: white;
+}
+.tierlistItem > .tierlistDiv {
+  display: inline-block;
+  height: auto;
+  text-align: center;
+  background: none;
+  border: none;
+  margin: 0 0 .5rem 0;
+}
+.tierlistUl{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+.tierlistLi{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.tierlistLi > input{
+  width: 100%;
+  background-color: transparent;
+  border: none;
+}
+.tierlistLiSvg{
+  width: 2rem;
+  height: 2rem;
+  fill: white;
+}
+.tierlistLiSvgRotate{
+  transform: rotate(180deg);
+}
+.tierlistDivTitle{
+  min-width: 8rem;
+  width: 8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.tierlistDivTitleInput{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: none;
+  border: none;
+  color: black;
+  font-size: 1.5rem;
+  border-right: solid 1px black;
+}
+.tierlistCross{
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+}
+.tierlistCrossSvg{
+  width: 1rem;
+  height: 1rem;
+  fill: white;
+}
