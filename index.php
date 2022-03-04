@@ -16,12 +16,11 @@
         <button class="addLine">ADD A LINE</button>
         
         <form method="post" action="index.php">
-            <select class="formSelect" name="theme">
+            <select class="formSelect" name="theme" onchange='if(this.value != 0) { this.form.submit(); }'>
                 <option value="mcu" <?php if(isset($_POST['theme']) && $_POST['theme'] === "mcu") { ?> selected <?php } else { ?> selected <?php } ?>>Marvel Cinematic Universe</option>
                 <option value="dcu" <?php if(isset($_POST['theme']) && $_POST['theme'] === "dcu") { ?> selected <?php } ?>>DC Universe</option>
                 <option value="oparcs" <?php if(isset($_POST['theme']) && $_POST['theme'] === "oparcs") { ?> selected <?php } ?>>One Piece Arcs</option>
             </select>
-            <input class="formSubmit" type="submit" value="Change the theme"/>
         </form>
     </nav>
 
