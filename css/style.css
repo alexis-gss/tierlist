@@ -1,3 +1,7 @@
+:root{
+  --globalWidth: 80vw;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -39,7 +43,8 @@ form{
 
 /* NAVIGATION */
 .nav{
-  width: 50vw;
+  width: var(--globalWidth);
+  max-width: 68rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -71,11 +76,15 @@ form{
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  width: 50vw;
-  min-height: 127px;
-  margin: .5rem;
+  width: var(--globalWidth);
+  max-width: 68rem;
+  min-height: 125px;
+  margin: .5rem 0;
   border: 1px solid black;
   background-color: white;
+}
+.tierlistItem{
+  margin-bottom: 2rem;
 }
 .tierlistItem > .tierlistDiv {
   display: inline-block;
