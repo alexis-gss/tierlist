@@ -20,6 +20,7 @@
                 <option value="mcu" <?php if(isset($_POST['theme']) && $_POST['theme'] === "mcu") { ?> selected <?php } else { ?> selected <?php } ?>>Marvel Cinematic Universe</option>
                 <option value="dcu" <?php if(isset($_POST['theme']) && $_POST['theme'] === "dcu") { ?> selected <?php } ?>>DC Universe</option>
                 <option value="oparcs" <?php if(isset($_POST['theme']) && $_POST['theme'] === "oparcs") { ?> selected <?php } ?>>One Piece Arcs</option>
+                <option value="pkm" <?php if(isset($_POST['theme']) && $_POST['theme'] === "pkm") { ?> selected <?php } ?>>Pokémon games</option>
             </select>
         </form>
     </nav>
@@ -169,6 +170,9 @@
                 }
                 else if($option === "oparcs") {
                     $path = 'img/oparcs/';
+                }
+                else if($option === "pkm") {
+                    $path = 'img/pkm/';
                 }
                 else {
                     $path = 'img/mcu/';
