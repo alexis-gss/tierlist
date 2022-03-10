@@ -14,6 +14,9 @@ function drop(ev) {
   if(ev.target.tagName === "IMG"){
     ev.target.closest("div").appendChild(document.getElementById(ev.dataTransfer.getData("text")));
   }
+  else if(ev.target.classList.contains("tierlistDiv")){
+    ev.target.appendChild(document.getElementById(ev.dataTransfer.getData("text")));
+  }
   else if(ev.target.querySelector(".tierlistImgs")){
     ev.target.querySelector(".tierlistImgs").appendChild(document.getElementById(ev.dataTransfer.getData("text")));
   }

@@ -86,7 +86,7 @@ form{
   margin-bottom: 2rem;
 }
 .tierlistItem > .tierlistDiv {
-  display: inline-block;
+  display: inline-table;
   height: auto;
   text-align: center;
   background: none;
