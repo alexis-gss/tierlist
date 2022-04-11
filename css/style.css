@@ -1,6 +1,7 @@
 /* VARIABLES */
 :root{
   --globalWidth: 80vw;
+  --globalMaxWidth: 69rem;
   --mainColor: #FFFFFF;
   --darkColor: #030303;
   --otherColor: rgb(136, 136, 136);
@@ -48,7 +49,7 @@ form{
 /* NAVIGATION */
 .nav{
   width: var(--globalWidth);
-  max-width: 68rem;
+  max-width: var(--globalMaxWidth);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -81,7 +82,7 @@ form{
   flex-direction: row;
   justify-content: flex-start;
   width: var(--globalWidth);
-  max-width: 68rem;
+  max-width: var(--globalMaxWidth);
   min-height: 125px;
   margin: .5rem 0;
   border: 1px solid var(--darkColor);
