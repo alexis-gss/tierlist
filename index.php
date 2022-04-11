@@ -161,19 +161,21 @@
 
     <section class="tierlistItem">
         <div class="tierlistDiv" ondrop="drop(event)" ondragover="allowDrop(event)">
-            <?php
-                $tab = array();
-                $id = 1;
-                foreach (new DirectoryIterator($path) as $fileInfo) {
-                    if($fileInfo->isDot()) continue;
-                    array_push($tab, $fileInfo->getFilename());
-                }
-                sort($tab);
-                foreach ($tab as $value) {
-                    echo '<img src="'. $path . $value . '" draggable="true" ondragstart="drag(event)" id="drag' . $id . '">';
-                    $id ++;
-                }
-            ?>
+            <div class="tierlistImgs">
+                <?php
+                    $tab = array();
+                    $id = 1;
+                    foreach (new DirectoryIterator($path) as $fileInfo) {
+                        if($fileInfo->isDot()) continue;
+                        array_push($tab, $fileInfo->getFilename());
+                    }
+                    sort($tab);
+                    foreach ($tab as $value) {
+                        echo '<img src="'. $path . $value . '" draggable="true" ondragstart="drag(event)" id="drag' . $id . '">';
+                        $id ++;
+                    }
+                ?>
+            </div>
         </div>
     </section>
 
