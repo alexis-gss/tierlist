@@ -1,8 +1,9 @@
+<?php require('./php/choseTheme.php'); ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-	<title>Tier List</title>
+    <title>Tier List | <?php echo $title ?></title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
@@ -161,22 +162,6 @@
     <section class="tierlistItem">
         <div class="tierlistDiv" ondrop="drop(event)" ondragover="allowDrop(event)">
             <?php
-                $option = isset($_POST['theme']) ? $_POST['theme'] : false;
-                if($option === "mcu") {
-                    $path = 'img/mcu/';
-                }
-                else if($option === "dcu") {
-                    $path = 'img/dcu/';
-                }
-                else if($option === "oparcs") {
-                    $path = 'img/oparcs/';
-                }
-                else if($option === "pkm") {
-                    $path = 'img/pkm/';
-                }
-                else {
-                    $path = 'img/mcu/';
-                }
                 $tab = array();
                 $id = 1;
                 foreach (new DirectoryIterator($path) as $fileInfo) {
@@ -186,7 +171,7 @@
                 sort($tab);
                 foreach ($tab as $value) {
                     echo '<img src="'. $path . $value . '" draggable="true" ondragstart="drag(event)" id="drag' . $id . '">';
-                    $id++;
+                    $id ++;
                 }
             ?>
         </div>
