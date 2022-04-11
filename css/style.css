@@ -1,7 +1,12 @@
+/* VARIABLES */
 :root{
   --globalWidth: 80vw;
+  --mainColor: #FFFFFF;
+  --darkColor: #030303;
+  --otherColor: rgb(136, 136, 136);
 }
 
+/* GLOBAL */
 body {
   display: flex;
   flex-direction: column;
@@ -36,7 +41,7 @@ form{
 /* TITLE */
 .title{
   font-family: 'Lobster', cursive;
-  color: white;
+  color: var(--mainColor);
   font-size: 8rem;
 }
 
@@ -51,9 +56,9 @@ form{
 }
 .addLine, .formSubmit, .formSelect{
   width: auto;
-  background-color: black;
+  background-color: var(--darkColor);
   border: none;
-  color: white;
+  color: var(--mainColor);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -79,8 +84,8 @@ form{
   max-width: 68rem;
   min-height: 125px;
   margin: .5rem 0;
-  border: 1px solid black;
-  background-color: white;
+  border: 1px solid var(--darkColor);
+  background-color: var(--mainColor);
 }
 .tierlistItem{
   margin-bottom: 2rem;
@@ -97,8 +102,8 @@ form{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: black;
-  color: white;
+  background-color: var(--darkColor);
+  color: var(--mainColor);
 }
 .tierlistLi{
   display: flex;
@@ -115,7 +120,7 @@ form{
 .tierlistLiSvg{
   width: 2rem;
   height: 2rem;
-  fill: white;
+  fill: var(--mainColor);
 }
 .tierlistLiSvgRotate{
   transform: rotate(180deg);
@@ -134,17 +139,17 @@ form{
   text-align: center;
   background: none;
   border: none;
-  color: black;
+  color: var(--darkColor);
   font-size: 1.5rem;
-  border-right: solid 1px black;
+  border-right: solid 1px var(--darkColor);
 }
 .tierlistCross{
-  background-color: black;
-  color: white;
+  background-color: var(--darkColor);
+  color: var(--mainColor);
   padding: 0.5rem;
 }
 .tierlistCrossSvg{
   width: 1rem;
   height: 1rem;
-  fill: white;
+  fill: var(--mainColor);
 }
