@@ -177,6 +177,10 @@
         </div>
     </section>
 
+    <footer class="footer">
+        <p>© 2022 <a href="https://www.alexis-gousseau.com" target="_blank">Alexis Gousseau</a></p>
+    </footer>
+
     <template>
         <div class="tierlistDiv" ondrop="drop(event)" ondragover="allowDrop(event)">
             <ul class="tierlistUl">
