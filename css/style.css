@@ -1,8 +1,8 @@
 /* VARIABLES */
-:root{
+:root {
   --globalWidth: 80vw;
   --globalMaxWidth: 69rem;
-  --mainColor: #FFFFFF;
+  --mainColor: #ffffff;
   --darkColor: #030303;
   --otherColor: rgb(136, 136, 136);
 }
@@ -14,7 +14,11 @@ body {
   align-items: center;
   justify-content: center;
   height: auto;
-  background: linear-gradient(145deg, rgba(38,92,144,1) 0%, rgba(0,0,0,1) 100%);
+  background: linear-gradient(
+    145deg,
+    rgba(38, 92, 144, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
@@ -26,35 +30,40 @@ img {
   margin: 0;
   padding: 0;
 }
-input{
+input {
   cursor: pointer;
 }
-button:focus, input:focus , .addLine, .formSubmit, .formSelect{
+button:focus,
+input:focus,
+.addLine,
+.formSubmit,
+.formSelect {
   outline: none;
 }
-form{
+form {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
-a, a:hover{
+a,
+a:hover {
   text-decoration: none;
   color: inherit;
 }
-a:hover{
+a:hover {
   color: var(--mainColor);
 }
 
 /* TITLE */
-.title{
-  font-family: 'Lobster', cursive;
+.title {
+  font-family: "Lobster", cursive;
   color: var(--mainColor);
   font-size: 8rem;
 }
 
 /* NAVIGATION */
-.nav{
+.nav {
   width: var(--globalWidth);
   max-width: var(--globalMaxWidth);
   display: flex;
@@ -62,7 +71,9 @@ a:hover{
   justify-content: space-between;
   align-items: center;
 }
-.addLine, .formSubmit, .formSelect{
+.addLine,
+.formSubmit,
+.formSelect {
   width: auto;
   background-color: var(--darkColor);
   border: none;
@@ -74,10 +85,10 @@ a:hover{
   font-size: 16px;
   cursor: pointer;
 }
-.addLine{
+.addLine {
   width: 10.1rem;
 }
-.formSelect{
+.formSelect {
   width: auto;
   height: 54px;
   text-align: left;
@@ -91,11 +102,11 @@ a:hover{
   width: var(--globalWidth);
   max-width: var(--globalMaxWidth);
   min-height: 125px;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
   border: 1px solid var(--darkColor);
   background-color: var(--mainColor);
 }
-.tierlistItem{
+.tierlistItem {
   margin-bottom: 2rem;
 }
 .tierlistItem > .tierlistDiv {
@@ -104,36 +115,36 @@ a:hover{
   text-align: center;
   background: none;
   border: none;
-  margin: 0 0 .5rem 0;
+  margin: 0 0 0.5rem 0;
 }
-.tierlistUl{
+.tierlistUl {
   list-style-type: none;
   margin: 0;
   padding: 0;
   background-color: var(--darkColor);
   color: var(--mainColor);
 }
-.tierlistLi{
+.tierlistLi {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   cursor: pointer;
 }
-.tierlistLi > input{
+.tierlistLi > input {
   width: 100%;
   background-color: transparent;
   border: none;
 }
-.tierlistLiSvg{
+.tierlistLiSvg {
   width: 2rem;
   height: 2rem;
   fill: var(--mainColor);
 }
-.tierlistLiSvgRotate{
+.tierlistLiSvgRotate {
   transform: rotate(180deg);
 }
-.tierlistDivTitle{
+.tierlistDivTitle {
   min-width: 8rem;
   width: 8rem;
   display: flex;
@@ -141,7 +152,7 @@ a:hover{
   align-items: center;
   justify-content: center;
 }
-.tierlistDivTitleInput{
+.tierlistDivTitleInput {
   width: 100%;
   height: 100%;
   text-align: center;
@@ -151,19 +162,19 @@ a:hover{
   font-size: 1.5rem;
   border-right: solid 1px var(--darkColor);
 }
-.tierlistCross{
+.tierlistCross {
   background-color: var(--darkColor);
   color: var(--mainColor);
   padding: 0.5rem;
 }
-.tierlistCrossSvg{
+.tierlistCrossSvg {
   width: 1rem;
   height: 1rem;
   fill: var(--mainColor);
 }
 
 /* FOOTER */
-.footer{
+.footer {
   width: 100%;
   height: 54px;
   display: flex;
@@ -173,7 +184,7 @@ a:hover{
   color: var(--otherColor);
   background-color: var(--darkColor);
 }
-.footer p{
+.footer p {
   padding: 0;
   margin: 0;
 }
