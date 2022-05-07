@@ -25,8 +25,6 @@ body {
   user-select: none;
 }
 img {
-  width: 100px;
-  height: 148px;
   margin: 0;
   padding: 0;
 }
@@ -56,10 +54,20 @@ a:hover {
 }
 
 /* TITLE */
-.title {
+header {
+  position: relative;
+}
+header .title {
   font-family: "Lobster", cursive;
   color: var(--mainColor);
   font-size: 8rem;
+}
+header img {
+  width: 100px;
+  position: absolute;
+  top: 68%;
+  right: -20px;
+  transform: rotate(-10deg);
 }
 
 /* NAVIGATION */

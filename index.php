@@ -3,7 +3,7 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-    <title>Tier List | <?php echo $title ?></title>
+    <title>Tier List | <?php echo $title; ?></title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
@@ -12,7 +12,10 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1 class="title">Tier List</h1>
+    <header>
+        <h1 class="title">Tier List</h1>
+        <img src="<?php echo $logo; ?>" alt="">
+    </header>
     <nav class="nav">
         <button class="addLine">ADD A LINE</button>
         
