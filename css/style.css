@@ -131,6 +131,13 @@ header img {
   padding: 0;
   background-color: var(--darkColor);
   color: var(--mainColor);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tierlistOl {
+  margin: 0;
+  padding: 0;
 }
 .tierlistLi {
   display: flex;

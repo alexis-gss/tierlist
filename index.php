@@ -32,24 +32,28 @@
     <section class="tierlistLine">
         <div class="tierlistDiv" ondrop="drop(event)" ondragover="allowDrop(event)">
             <ul class="tierlistUl">
-                <li class="tierlistLi">
-                    <input type="color" class="pickerColor" name="pickerColor">
-                </li>
-                <li class="tierlistLi arrowUp">
-                    <svg class="tierlistLiSvg">
-                        <use href="#icon-ctrl"></use>
-                    </svg>
-                </li>
-                <li class="tierlistLi arrowDown">
-                    <svg class="tierlistLiSvg tierlistLiSvgRotate">
-                        <use href="#icon-ctrl"></use>
-                    </svg>
-                </li>
-                <li class="tierlistLi tierlistCross">
-                    <svg class="tierlistCrossSvg">
-                        <use href="#icon-cross"></use>
-                    </svg>
-                </li>
+                <ol class="tierlistOl">
+                    <li class="tierlistLi">
+                        <input type="color" class="pickerColor" name="pickerColor">
+                    </li>
+                    <li class="tierlistLi arrowUp">
+                        <svg class="tierlistLiSvg">
+                            <use href="#icon-ctrl"></use>
+                        </svg>
+                    </li>
+                    <li class="tierlistLi arrowDown">
+                        <svg class="tierlistLiSvg tierlistLiSvgRotate">
+                            <use href="#icon-ctrl"></use>
+                        </svg>
+                    </li>
+                </ol>
+                <ol class="tierlistOl">
+                    <li class="tierlistLi tierlistCross">
+                        <svg class="tierlistCrossSvg">
+                            <use href="#icon-cross"></use>
+                        </svg>
+                    </li>
+                </ol>
             </ul>
             <span class="tierlistDivTitle" data-color="#FF0000">
                 <input class="tierlistDivTitleInput" type="text" id="fname" name="fname" data-title="S">
@@ -58,24 +62,28 @@
         </div>
         <div class="tierlistDiv" ondrop="drop(event)" ondragover="allowDrop(event)">
             <ul class="tierlistUl">
-                <li class="tierlistLi">
-                    <input type="color" class="pickerColor" name="pickerColor">
-                </li>
-                <li class="tierlistLi arrowUp">
-                    <svg class="tierlistLiSvg">
-                        <use href="#icon-ctrl"></use>
-                    </svg>
-                </li>
-                <li class="tierlistLi arrowDown">
-                    <svg class="tierlistLiSvg tierlistLiSvgRotate">
-                        <use href="#icon-ctrl"></use>
-                    </svg>
-                </li>
-                <li class="tierlistLi tierlistCross">
-                    <svg class="tierlistCrossSvg">
-                        <use href="#icon-cross"></use>
-                    </svg>
-                </li>
+                <ol class="tierlistOl">
+                    <li class="tierlistLi">
+                        <input type="color" class="pickerColor" name="pickerColor">
+                    </li>
+                    <li class="tierlistLi arrowUp">
+                        <svg class="tierlistLiSvg">
+                            <use href="#icon-ctrl"></use>
+                        </svg>
+                    </li>
+                    <li class="tierlistLi arrowDown">
+                        <svg class="tierlistLiSvg tierlistLiSvgRotate">
+                            <use href="#icon-ctrl"></use>
+                        </svg>
+                    </li>
+                </ol>
+                <ol class="tierlistOl">
+                    <li class="tierlistLi tierlistCross">
+                        <svg class="tierlistCrossSvg">
+                            <use href="#icon-cross"></use>
+                        </svg>
+                    </li>
+                </ol>
             </ul>
             <span class="tierlistDivTitle" data-color="#FF7B00">
                 <input class="tierlistDivTitleInput" type="text" id="fname" name="fname" data-title="A">
@@ -84,24 +92,28 @@
         </div>
         <div class="tierlistDiv" ondrop="drop(event)" ondragover="allowDrop(event)">
             <ul class="tierlistUl">
-                <li class="tierlistLi">
-                    <input type="color" class="pickerColor" name="pickerColor">
-                </li>
-                <li class="tierlistLi arrowUp">
-                    <svg class="tierlistLiSvg">
-                        <use href="#icon-ctrl"></use>
-                    </svg>
-                </li>
-                <li class="tierlistLi arrowDown">
-                    <svg class="tierlistLiSvg tierlistLiSvgRotate">
-                        <use href="#icon-ctrl"></use>
-                    </svg>
-                </li>
-                <li class="tierlistLi tierlistCross">
-                    <svg class="tierlistCrossSvg">
-                        <use href="#icon-cross"></use>
-                    </svg>
-                </li>
+                <ol class="tierlistOl">
+                    <li class="tierlistLi">
+                        <input type="color" class="pickerColor" name="pickerColor">
+                    </li>
+                    <li class="tierlistLi arrowUp">
+                        <svg class="tierlistLiSvg">
+                            <use href="#icon-ctrl"></use>
+                        </svg>
+                    </li>
+                    <li class="tierlistLi arrowDown">
+                        <svg class="tierlistLiSvg tierlistLiSvgRotate">
+                            <use href="#icon-ctrl"></use>
+                        </svg>
+                    </li>
+                </ol>
+                <ol class="tierlistOl">
+                    <li class="tierlistLi tierlistCross">
+                        <svg class="tierlistCrossSvg">
+                            <use href="#icon-cross"></use>
+                        </svg>
+                    </li>
+                </ol>
             </ul>
             <span class="tierlistDivTitle" data-color="#FFA200">
                 <input class="tierlistDivTitleInput" type="text" id="fname" name="fname" data-title="B">
@@ -110,24 +122,28 @@
         </div>
         <div class="tierlistDiv" ondrop="drop(event)" ondragover="allowDrop(event)">
             <ul class="tierlistUl">
-                <li class="tierlistLi">
-                    <input type="color" class="pickerColor" name="pickerColor">
-                </li>
-                <li class="tierlistLi arrowUp">
-                    <svg class="tierlistLiSvg">
-                        <use href="#icon-ctrl"></use>
-                    </svg>
-                </li>
-                <li class="tierlistLi arrowDown">
-                    <svg class="tierlistLiSvg tierlistLiSvgRotate">
-                        <use href="#icon-ctrl"></use>
-                    </svg>
-                </li>
-                <li class="tierlistLi tierlistCross">
-                    <svg class="tierlistCrossSvg">
-                        <use href="#icon-cross"></use>
-                    </svg>
-                </li>
+                <ol class="tierlistOl">
+                    <li class="tierlistLi">
+                        <input type="color" class="pickerColor" name="pickerColor">
+                    </li>
+                    <li class="tierlistLi arrowUp">
+                        <svg class="tierlistLiSvg">
+                            <use href="#icon-ctrl"></use>
+                        </svg>
+                    </li>
+                    <li class="tierlistLi arrowDown">
+                        <svg class="tierlistLiSvg tierlistLiSvgRotate">
+                            <use href="#icon-ctrl"></use>
+                        </svg>
+                    </li>
+                </ol>
+                <ol class="tierlistOl">
+                    <li class="tierlistLi tierlistCross">
+                        <svg class="tierlistCrossSvg">
+                            <use href="#icon-cross"></use>
+                        </svg>
+                    </li>
+                </ol>
             </ul>
             <span class="tierlistDivTitle" data-color="#FFC800">
                 <input class="tierlistDivTitleInput" type="text" id="fname" name="fname" data-title="C">
@@ -136,24 +152,28 @@
         </div>
         <div class="tierlistDiv" ondrop="drop(event)" ondragover="allowDrop(event)">
             <ul class="tierlistUl">
-                <li class="tierlistLi">
-                    <input type="color" class="pickerColor" name="pickerColor">
-                </li>
-                <li class="tierlistLi arrowUp">
-                    <svg class="tierlistLiSvg">
-                        <use href="#icon-ctrl"></use>
-                    </svg>
-                </li>
-                <li class="tierlistLi arrowDown">
-                    <svg class="tierlistLiSvg tierlistLiSvgRotate">
-                        <use href="#icon-ctrl"></use>
-                    </svg>
-                </li>
-                <li class="tierlistLi tierlistCross">
-                    <svg class="tierlistCrossSvg">
-                        <use href="#icon-cross"></use>
-                    </svg>
-                </li>
+                <ol class="tierlistOl">
+                    <li class="tierlistLi">
+                        <input type="color" class="pickerColor" name="pickerColor">
+                    </li>
+                    <li class="tierlistLi arrowUp">
+                        <svg class="tierlistLiSvg">
+                            <use href="#icon-ctrl"></use>
+                        </svg>
+                    </li>
+                    <li class="tierlistLi arrowDown">
+                        <svg class="tierlistLiSvg tierlistLiSvgRotate">
+                            <use href="#icon-ctrl"></use>
+                        </svg>
+                    </li>
+                <ol class="tierlistOl">
+                </ol>
+                    <li class="tierlistLi tierlistCross">
+                        <svg class="tierlistCrossSvg">
+                            <use href="#icon-cross"></use>
+                        </svg>
+                    </li>
+                </ol>
             </ul>
             <span class="tierlistDivTitle" data-color="#FFF700">
                 <input class="tierlistDivTitleInput" type="text" id="fname" name="fname" data-title="D">
@@ -189,24 +209,28 @@
     <template>
         <div class="tierlistDiv" ondrop="drop(event)" ondragover="allowDrop(event)">
             <ul class="tierlistUl">
-                <li class="tierlistLi">
-                    <input type="color" class="pickerColor" name="pickerColor">
-                </li>
-                <li class="tierlistLi arrowUp">
-                    <svg class="tierlistLiSvg">
-                        <use href="#icon-ctrl"></use>
-                    </svg>
-                </li>
-                <li class="tierlistLi arrowDown">
-                    <svg class="tierlistLiSvg tierlistLiSvgRotate">
-                        <use href="#icon-ctrl"></use>
-                    </svg>
-                </li>
-                <li class="tierlistLi tierlistCross">
-                    <svg class="tierlistCrossSvg">
-                        <use href="#icon-cross"></use>
-                    </svg>
-                </li>
+                <ol class="tierlistOl">
+                    <li class="tierlistLi">
+                        <input type="color" class="pickerColor" name="pickerColor">
+                    </li>
+                    <li class="tierlistLi arrowUp">
+                        <svg class="tierlistLiSvg">
+                            <use href="#icon-ctrl"></use>
+                        </svg>
+                    </li>
+                    <li class="tierlistLi arrowDown">
+                        <svg class="tierlistLiSvg tierlistLiSvgRotate">
+                            <use href="#icon-ctrl"></use>
+                        </svg>
+                    </li>
+                </ol>
+                <ol class="tierlistOl">
+                    <li class="tierlistLi tierlistCross">
+                        <svg class="tierlistCrossSvg">
+                            <use href="#icon-cross"></use>
+                        </svg>
+                    </li>
+                </ol>
             </ul>
             <span class="tierlistDivTitle" data-color="#949494">
                 <input class="tierlistDivTitleInput" type="text" id="fname" name="fname" data-title="Title">
