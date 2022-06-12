@@ -13,8 +13,10 @@
 </head>
 <body>
     <header>
-        <h1 class="title">Tier List</h1>
-        <img src="<?php echo $logo; ?>" alt="">
+        <a href=".">
+            <h1 class="title">Tier List</h1>
+            <img src="<?php echo $logo; ?>" alt="">
+        </a>
     </header>
     <nav class="nav">
         <button class="addLine">ADD A LINE</button>
