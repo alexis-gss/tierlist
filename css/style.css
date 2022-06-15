@@ -14,11 +14,10 @@ body {
   align-items: center;
   justify-content: center;
   height: auto;
-  background: linear-gradient(
-    145deg,
-    rgba(38, 92, 144, 1) 0%,
-    rgba(0, 0, 0, 1) 100%
-  );
+  background: 
+    radial-gradient(80vmax 80vmax at 0% 0%, hsla(175, 100%, 60%, 0.9) 0%, hsla(200, 100%, 50%, 0.5) 50%, hsla(240, 100%, 50%, 0) 95%),
+    radial-gradient(80vmax 80vmax at 110% 0%, hsla(175, 100%, 60%, 0.9) 0%, hsla(200, 100%, 50%, 0.5) 50%, hsla(240, 100%, 50%, 0) 95%), 
+    radial-gradient(90vmax 50vmax at 50vmax 50vmax, hsla(240, 100%, 2%, 0.9) 0%, hsla(240, 100%, 2%, 0) 95%) hsl(0, 0%, 1%);
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
