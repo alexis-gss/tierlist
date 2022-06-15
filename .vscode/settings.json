@@ -1,5 +1,5 @@
 {
-    // #265c90
+    // #265C90
     // #FFFFFF
     // #000000
 
@@ -8,19 +8,19 @@
         "sash.hoverBorder": "#265c90",
         "statusBar.background": "#265c90",
         "titleBar.activeBackground": "#265c90",
-        "activityBarBadge.background": "#FFFFFF",
-
+        "activityBarBadge.foreground": "#000000",
+        
         "titleBar.inactiveBackground": "#265c9077",
         "titleBar.inactiveForeground": "#FFFFFF77",
-        "activityBar.activeBackground": "#FFFFFF77",
+        "activityBar.activeBackground": "#61616177",
         "activityBar.inactiveForeground": "#FFFFFF77",
 
         "icon.foreground": "#FFFFFF",
-        "titleBar.activeForeground": "#FFFFFF",
-        "statusBar.foreground": "#FFFFFF", 
+        "titleBar.activeForeground": "#FFFFFF77",
+        "statusBar.foreground": "#FFFFFF77",
         "activityBar.foreground": "#FFFFFF",
 
-        "activityBarBadge.foreground": "#000000",
-        "activityBar.activeBorder": "#FFFFFF"
+        "activityBarBadge.background": "#FFFFFF",
+        "activityBar.activeBorder": "#FFFFFF",
     }
 }
