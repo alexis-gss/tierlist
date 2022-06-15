@@ -168,8 +168,8 @@
                             <use href="#icon-ctrl"></use>
                         </svg>
                     </li>
-                <ol class="tierlistOl">
                 </ol>
+                <ol class="tierlistOl">
                     <li class="tierlistLi tierlistCross">
                         <svg class="tierlistCrossSvg">
                             <use href="#icon-cross"></use>
