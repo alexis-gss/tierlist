@@ -14,10 +14,7 @@ body {
   align-items: center;
   justify-content: center;
   height: auto;
-  background: 
-    radial-gradient(80vmax 80vmax at 0% 0%, hsla(175, 100%, 60%, 0.9) 0%, hsla(200, 100%, 50%, 0.5) 50%, hsla(240, 100%, 50%, 0) 95%),
-    radial-gradient(80vmax 80vmax at 110% 0%, hsla(175, 100%, 60%, 0.9) 0%, hsla(200, 100%, 50%, 0.5) 50%, hsla(240, 100%, 50%, 0) 95%), 
-    radial-gradient(90vmax 50vmax at 50vmax 50vmax, hsla(240, 100%, 2%, 0.9) 0%, hsla(240, 100%, 2%, 0) 95%) hsl(0, 0%, 1%);
+  background-image: linear-gradient(to right top, #000104, #121620, #192537, #203550, #24456b, #27507c, #295b8e, #2b67a0, #2f6fad, #3277b9, #3680c6, #3a88d3);
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;

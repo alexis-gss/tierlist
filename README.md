@@ -5,8 +5,8 @@
 ![Banner of the github account](./img/others/tierlist.jpg)
 
 ![Website fakesite.invalid](https://img.shields.io/website-up-down-green-red/http/www.tierlist.alexis-gousseau.com)
-![GitHub latest commit](https://badgen.net/github/last-commit/alexis-gss/tierlist?color=23c3c2)
-![GitHub tag](https://img.shields.io/github/tag/alexis-gss/tierlist?color=23c3c2)
+![GitHub latest commit](https://badgen.net/github/last-commit/alexis-gss/tierlist?color=3A88D3)
+![GitHub tag](https://img.shields.io/github/tag/alexis-gss/tierlist?color=3A88D3)
 
 
 ---
